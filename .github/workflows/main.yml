@@ -9,7 +9,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: 23f3000200@ds.study.iita.ac.in
+      - name: 23f3000290@ds.study.iitm.ac.in
         run: echo "This step contains my email address"
         
       - name: Regular step
