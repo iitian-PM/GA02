@@ -1,0 +1,16 @@
+name: Email in Action Step
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: 23f3000200@ds.study.iita.ac.in
+        run: echo "This step contains my email address"
+        
+      - name: Regular step
+        run: echo "This is a normal step"
